@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nameID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        >
+        <EditText
+            android:id="@+id/urlID2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="URL of Image"
+            android:textSize="28dp"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.588" />
+
+        <EditText
+            android:id="@+id/emailID2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Status"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="28dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.472" />
+
+        <EditText
+            android:id="@+id/courseID2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Enter Price"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.354" />
+
+        <EditText
+            android:id="@+id/nameID1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Enter Food Name"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.223" />
+
+        <Button
+            android:id="@+id/btnADDID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttonback"
+            android:enabled="true"
+            android:text="Add Data"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.835" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
